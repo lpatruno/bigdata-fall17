@@ -1,5 +1,22 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 2
+---
+This past week we spent some time discussing the semester final project and reviewing the contents of chapter 1 on the Lambda architecture.
+
+The details of the final project can be found [here](final_project.pdf). I've also added a link to this document in the sidebar for ease of access. Please review this proposal and note any questions you may have. This is a semester long research project that will require a good deal of work; I recommend getting started as early as possible.
+
+Your homework assignment for next class is as follows:
+
+  1. Please read chapters 2 and 3 of the textbook. These chapters focus on designing a data model for a big data system. This foundational material is extremely important as how you choose to model your master dataset determines the kind of analytics that you can perform on your data further downstream. This model must also be extensible because your company's data types will change over time. In chapter 2 you'll learn about the fact-based model, enforceable schemas, and graphical representations. Chapter 3 will introduce Apache Thrift, a data serialization framework. As always, be prepared for a quiz.
+  
+  2. Part of your assignment last week was to spend time researching the technologies listed in section 1.8.3 of the text. This section includes specific technologies for batch computation systems, serialization frameworks, random-access NoSQL databases, messaging/queuing systems, and realtime computation systems. Research each technology listed in this section and prepare a ranked list of 7 technologies you would like to work on for your final project. I expect students to turn in a document with the student's name, program (either Data Analytics or Computer Science), and a ranking of 7 technologies. Additionally, if there are other technologies that you would like to work on, please email me about these technologies and we can discuss how to incorporate them into the final project.
+  
+Several students mentioned that they have class during office hours. I invite these students to come to additional office hours on Tuesday evenings from 7:45pm - 8:45 pm in the 3rd floor lounge. Additionally, please email to set up additional office hours.
+
+Please come to class prepared to discuss the material from the chapter. 
+
+
 ### Lecture 1
 ---
 

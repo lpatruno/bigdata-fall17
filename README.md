@@ -1,5 +1,19 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 3
+---
+This week we spent time discussing how to model your master dataset designing a new Big Data System. This is incredibly important as the decisions made about the model determines the kind of analytics you can perform on your data and how you'll consume the data later on. We also worked a bit on coming up with a data model to capture user interactions with a streaming music player service. Kudos to the brave group who presented their work!
+
+Your homework assignment for next class is as follows:
+
+  1. Please read chapters 4 and 5 of the textbook. These chapters focus on how to physically store your master dataset in a distributed filesystem. Please spend a good deal of time going through the code in chapter 5. It's not so important to understand how each line of code works- it's way more important to understand the principles being employed. Please bring any questions you may have to class!
+  
+  2. Read this primer on [filesystem basics](http://www.porcupine.org/forensics/chapter3.html). It's important to understand the basics before moving on to distributed filesystems!
+  
+For those students who had questions about normalization last week, check out the [Wikipedia](https://en.wikipedia.org/wiki/Database_normalization) page on database normalization.
+
+See you next week!
+
 ### Lecture 2
 ---
 This past week we spent some time discussing the semester final project and reviewing the contents of chapter 1 on the Lambda architecture.

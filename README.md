@@ -1,5 +1,39 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 5
+---
+We spent this week discussing how data is physically stored in the batch layer. Namely, we discussed the requirements of the storage layer. These include the ability to handle a large, constantly growing set of data, the ability to compute functions on the whole dataset by reading lots of data at once, and the ability to tune the trade-off between storage cost vs. processing cost. Distributed filesystems, filesystems that scale by adding more machines to a cluster, fit these requirements and the Hadoop Distributed File System is the de facto industry standard for handling the physical storage layer of Big Data Systems.
+
+We spent the remainder of the class discussing libraries that natively handle the operations that we wish to perform (append data to a dataset, enforce a vertical partitioning scheme, and consolidate many small files into larger files). We looked specifically at how the [Pail](https://github.com/nathanmarz/dfs-datastores) library handles these operations. Remember, it's not important to understand how every line of code works - it's much more important to understand **the principles for building out Big Data Systems** rather than how these are implemented in particular libraries. Some students asked questions about serialization, and I think [Wikipedia](https://en.wikipedia.org/wiki/Serialization) does a great job of explaining what serialization is and what it's used for in simple terms. Check it out!
+
+Your homework assignment for next class is as follows:
+
+  1. Please read chapter 6 of the textbook. This chapter discusses computing functions on the batch layer and using MapReduce. Students who are interested in algorithms and data analysis will find this chapter particularly interesting. We will skip the implementation chapter this week in order to really focus on the theory behind batch computation systems.
+  
+  2. Please read the original [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) paper by Jeffrey Dean and Sanjay Ghemawat of Google. Learn from the masters.
+  
+  2. Your midterm will take place in-class on October 25th. The test will be a closed-book, essay style examination.
+  
+See you next week!
+
+### Lecture 4
+---
+Class cancelled this week. No new reading assignment.
+
+### Lecture 3
+---
+This week we spent time discussing how to model your master dataset designing a new Big Data System. This is incredibly important as the decisions made about the model determines the kind of analytics you can perform on your data and how you'll consume the data later on. We also worked a bit on coming up with a data model to capture user interactions with a streaming music player service. Kudos to the brave group who presented their work!
+
+Your homework assignment for next class is as follows:
+
+  1. Please read chapters 4 and 5 of the textbook. These chapters focus on how to physically store your master dataset in a distributed filesystem. Please spend a good deal of time going through the code in chapter 5. It's not so important to understand how each line of code works- it's way more important to understand the principles being employed. Please bring any questions you may have to class!
+  
+  2. Read this primer on [filesystem basics](http://www.porcupine.org/forensics/chapter3.html). It's important to understand the basics before moving on to distributed filesystems!
+  
+For those students who had questions about normalization last week, check out the [Wikipedia](https://en.wikipedia.org/wiki/Database_normalization) page on database normalization.
+
+See you next week!
+
 ### Lecture 2
 ---
 This past week we spent some time discussing the semester final project and reviewing the contents of chapter 1 on the Lambda architecture.

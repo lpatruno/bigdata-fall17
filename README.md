@@ -1,5 +1,17 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 6
+---
+This week we discussed batch computation in the batch layer. As part of the Lambda Architecture, the batch layer precomputes the master dataset into batch views to be served by the serving layer so that queries can be resolved with low latency. Since the master dataset is constantly growing, these batch views need to be updated - and to do we must choose between recomputation and incremental style algorithms. We also discussed MapReduce, a distributed computing paradigm created at Google that provides a framework for scalable and fault-tolerant batch computation. As a framework, MapReduce abstracts away many of the difficulties of distributed computing, including concurrency, transferring data between machines over a network, and task scheduling, and lets you focus on data processing. Finally, we examined 2 queries - hourly pageview counts and gender inference - and saw how to implement these using MapReduce.
+
+Your homework assignment for next class is as follows:
+
+  1. Please read chapter 8 of the text. Chapter 8 applies the theory we learned about the batch layer to a real world example and walks you through building a batch layer from beginning to end. This chapter marks the end of our study of the batch layer, and with it the end of the first half of the semester. The serving and speed layers are next!
+  
+  2. Some students had questions about the midterm. In order to address these and similar concerns, I will devote half of the class next week to answering questions about the material for the midterm. That is, if you have questions about material, please bring them to class and we can discuss them as a group. Note that this discussion is dependent on the questions asked; if there are no questions, we will spend the additional time on lecture.
+  
+I will be posting the answers to the first 3 quizzes and the groups for the final project within the next few days!
+
 ### Lecture 5
 ---
 We spent this week discussing how data is physically stored in the batch layer. Namely, we discussed the requirements of the storage layer. These include the ability to handle a large, constantly growing set of data, the ability to compute functions on the whole dataset by reading lots of data at once, and the ability to tune the trade-off between storage cost vs. processing cost. Distributed filesystems, filesystems that scale by adding more machines to a cluster, fit these requirements and the Hadoop Distributed File System is the de facto industry standard for handling the physical storage layer of Big Data Systems.

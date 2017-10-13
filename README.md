@@ -1,5 +1,11 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Announcement: Final Project Groups
+---
+The final project groups have been formed and are available [here](https://github.com/lpatruno/bigdatafall17/Final_Project_Groups.csv). I wanted to ensure that each student would be able to present on a technology that was in his or her top 3 technologies. In order to do this, I had to make 2 Hadoop groups (they're denoted *Hadoop* and *Hadoop 2* and one of these groups has 5 students. I expect these two groups to talk to one another to ensure they're working on different tutorials for the final project.
+
+If there are any questions, please let me know!
+
 ### Lecture 6
 ---
 This week we discussed batch computation in the batch layer. As part of the Lambda Architecture, the batch layer precomputes the master dataset into batch views to be served by the serving layer so that queries can be resolved with low latency. Since the master dataset is constantly growing, these batch views need to be updated - and to do we must choose between recomputation and incremental style algorithms. We also discussed MapReduce, a distributed computing paradigm created at Google that provides a framework for scalable and fault-tolerant batch computation. As a framework, MapReduce abstracts away many of the difficulties of distributed computing, including concurrency, transferring data between machines over a network, and task scheduling, and lets you focus on data processing. Finally, we examined 2 queries - hourly pageview counts and gender inference - and saw how to implement these using MapReduce.

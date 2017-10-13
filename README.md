@@ -2,7 +2,7 @@
 
 ### Announcement: Quiz Answers
 ---
-As requested, I've posted solutions to the quizzes. Here they are: [Quiz 1]()
+As requested, I've posted solutions to the quizzes. Here they are: [Quiz 1](https://github.com/lpatruno/bigdata-fall17/blob/master/quiz_1.pdf)
 
 ### Announcement: Final Project Groups
 ---

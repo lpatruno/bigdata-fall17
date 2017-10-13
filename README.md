@@ -1,5 +1,10 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Announcement: Quiz Answers
+---
+As requested, here are quiz solutions. I'll upload each of them as I complete them.
+  * [Quiz 1](https://github.com/lpatruno/bigdata-fall17/blob/master/quiz_1.pdf)
+
 ### Announcement: Final Project Groups
 ---
 The final project groups have been formed and are available [here](https://github.com/lpatruno/bigdata-fall17/blob/master/Final_Project_Groups.csv). I wanted to ensure that each student would be able to present on a technology that was in his or her top 3 technologies. In order to do this, I had to make 2 Hadoop groups (they're denoted *Hadoop* and *Hadoop 2* and one of these groups has 5 students. I expect these two groups to talk to one another to ensure they're working on different tutorials for the final project.

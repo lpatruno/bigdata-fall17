@@ -4,6 +4,10 @@
 ---
 As requested, here are quiz solutions. I'll upload each of them as I complete them.
   * [Quiz 1](https://github.com/lpatruno/bigdata-fall17/blob/master/quiz_1.pdf)
+  * [Quiz 2](https://github.com/lpatruno/bigdata-fall17/blob/master/quiz_2.pdf)
+  * [Quiz 3](https://github.com/lpatruno/bigdata-fall17/blob/master/quiz_3.pdf)
+  * [Makeup Quiz 1](https://github.com/lpatruno/bigdata-fall17/blob/master/makeup_quiz_1.pdf)
+  * [Makeup Quiz 2](https://github.com/lpatruno/bigdata-fall17/blob/master/makeup_quiz_2.pdf)
 
 ### Announcement: Final Project Groups
 ---

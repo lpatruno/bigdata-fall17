@@ -1,5 +1,18 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 8
+---
+Last week we watched a talk on the [evolution of data processing at Spotify](https://www.youtube.com/watch?v=5JeBiSdyGMY) and discussed the different components of Spotify's big data system. As we saw, Spotify is using many different tools, including the [Google Cloud Big Data](https://cloud.google.com/solutions/big-data/) suite, [Scala](https://www.scala-lang.org/), [Scio](https://github.com/spotify/scio), and [luigi](https://github.com/spotify/luigi). However, these tools are just different solutions to the same issues we've been discussing in class this semester including, batch processing, serialization, serving the results of batch processing, merging/joining big data sets, etc.
+
+The remainder of the class was spent discussing group projects. Kudos to team Spark for a great introduction to their project. I will be asking other groups to give similar short intros in the next few classes. So keep working!
+
+As I mentioned, we will not be having class this week. We will make up this class over a Skype session in the future.
+
+Your homework assignment for next class is as follows:
+
+  1. Please read chapters 12-14. These are our first chapters on the speed layer. You will learn about the CAP theorem, Apache Cassandra, and Storm. We will review all this material in our next class.
+
+
 ### Announcement: Quiz Answers
 ---
 As requested, here are quiz solutions. I'll upload each of them as I complete them.

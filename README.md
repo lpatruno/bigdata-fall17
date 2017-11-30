@@ -1,5 +1,15 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 9
+---
+Our discussion this week was focused on the speed layer - the theory and technologies that allow for low latency queries even in the face of petabyte scale data sets. In order to facilitate low latency queries, we need to use specialized forms of databases that allow for random read and random write access and are distributed and scalable. A popular form of databases called NoSQL databases have emerged over the last decade that provide a variety of data models and index types including Apache Cassandra and MongoDB.
+
+Random write access is necessary because we need to update our realtime views in an incremental fashion, meaning that our functions need to take in the most recent data and the previous realtime views and update these views, rather than reconstruct them from scratch. These algorithms are more complex and present challenges when considering the CAP Theorem, which states that when dealing with distributed data systems, you can achieve consistency (where reads incorporate all previous writes) or availability (where every query returns an answer instead of an error) but not both.
+
+Your homework assignment for next class is as follows:
+
+  1. Please reread chapter 14 and read chapter 15. These chapters discuss how to connect the streams of data being generated with the realtime views. You will learn about queuing and stream processing and touch on Apache Kafka and Storm, two massively popular technologies.
+
 ### Lecture 8
 ---
 Last week we watched a talk on the [evolution of data processing at Spotify](https://www.youtube.com/watch?v=5JeBiSdyGMY) and discussed the different components of Spotify's big data system. As we saw, Spotify is using many different tools, including the [Google Cloud Big Data](https://cloud.google.com/solutions/big-data/) suite, [Scala](https://www.scala-lang.org/), [Scio](https://github.com/spotify/scio), and [luigi](https://github.com/spotify/luigi). However, these tools are just different solutions to the same issues we've been discussing in class this semester including, batch processing, serialization, serving the results of batch processing, merging/joining big data sets, etc.

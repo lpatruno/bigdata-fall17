@@ -1,5 +1,15 @@
 ## Welcome to CISC 5950 - Big Data Programming!
 
+### Lecture 10
+---
+This week we discussed the fundamentals of queueing and stream processing - essential elements of asynchronous data processing systems. In particular we noted that queues allow systems to retry events whenever workers processing data fail. Further, they act as a buffer that protect data when the system is hit with a burst in traffic. Single-consumer queues are limited by the fact that the queue is responsible for keeping track of which events have been consumed by worker processes. Multi-consumer queues, such as Apache Kafka, shift the responsiblity of tracking the consumed/unconsumed status of events from the queue to the applications themselves. The queue then provides a service-level agreement guaranteeing that a certain amount of the stream is available.
+
+Stream processing systems are responsible for processing these buffered events and updating the realtime views. These systems provide improvements over the traditional queues-and-workers model which add latency and operational burden to the data processing system. We introduced Apache Storm and discussed the Storm model, which represents the entire stream-processing pipeline as a graph of computation called a *topology*.
+
+Your homework assignment for next class is as follows:
+
+  1. Read chapter 18 **Lambda architecture in depth**. This chapter concludes our study by summarizing the Lambda Architecture and discussing how the views in the serving layer and speed layer are merged together to resolve queries.
+
 ### Lecture 9
 ---
 Our discussion this week was focused on the speed layer - the theory and technologies that allow for low latency queries even in the face of petabyte scale data sets. In order to facilitate low latency queries, we need to use specialized forms of databases that allow for random read and random write access and are distributed and scalable. A popular form of databases called NoSQL databases have emerged over the last decade that provide a variety of data models and index types including Apache Cassandra and MongoDB.
